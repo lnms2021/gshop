@@ -6,6 +6,7 @@ import axios from 'axios'
 
 export default function ajax(url, data = {}, method = "GET") {
     /* 
+    console.log('test')
     const response = await ajax()
     const result = response.data
     const resule = await ajax()
